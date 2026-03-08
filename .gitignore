@@ -1,0 +1,16 @@
+.DS_Store
+Thumbs.db
+*.class
+*.jar
+*.log
+
+# Maven
+target/
+/.mvn/wrapper/MavenWrapperDownloader.java
+!/.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
