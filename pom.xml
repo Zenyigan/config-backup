@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.zenyigan</groupId>
     <artifactId>config-backup</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <name>Config Backup</name>
     <description>A lightweight Java library for creating backups of application configuration state at startup</description>
     <url>https://github.com/zenyigan/config-backup</url>

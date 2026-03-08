@@ -4,6 +4,16 @@ A lightweight Java library for creating backups of application configuration sta
 It supports both file- and directory-based sources, such as databases or JSON configuration files,
 and manages automatic cleanup of outdated backups.
 
+## Installation
+
+```xml
+<dependency>
+    <groupId>io.github.zenyigan</groupId>
+    <artifactId>config-backup</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
+
 ## Requirements
 
 The library has no dependencies and can be used with JDK 8 or later.
@@ -124,3 +134,9 @@ Thus, after two backup runs, a structure like the following is created in .myApp
 | | |____20250928-123958-912
 | | | |____config.json
 ```
+
+## License
+
+This project is licensed under the Apache License 2.0.
+
+You may obtain a copy at [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0).
